@@ -11,12 +11,12 @@ const app = express()
 [Response] => Hello world!
  */
 app.get('/', (req, res) => {
-    res.send('Hello world!\n')
+    res.send('Decoding_sektio_nugroho!\n')
 })
 
 /*
 Optional [ROUTE] '/me'
-[Response] => Dicoding username.
+[Response] => Dicoding_sektio_nugroho.
 */
 
 app.listen(PORT, HOST)
